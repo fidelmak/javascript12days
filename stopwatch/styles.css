@@ -1,0 +1,18 @@
+body{
+    margin-top: 7rem;
+    background-color: rgb(2, 2, 26);
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+
+}
+.options{
+    margin: -1rem;
+}
+.start,.stop,.reset{
+    background-color: white;
+    color: rgb(2, 2, 26) ;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
