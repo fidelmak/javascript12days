@@ -31,7 +31,7 @@ _TODO: Click on each folder which includes different project ._
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/generic-project-template/">
-        <img src="/slide4.jpg" alt="Sample screenshot" title="Go to website" width="400" />
+        <img src="/slide.jpg" alt="Sample screenshot" title="Go to website" width="400" />
     </a>
 </div>
 
