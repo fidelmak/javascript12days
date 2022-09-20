@@ -2,17 +2,17 @@
 # My  Project Template
 > Starter  project in Javascript programming language - 
 
-_TODO: Generate more badges with [Badge Generator](https://michaelcurrin.github.io/badge-generator/)._
+_TODO: hands on projects [Badge Generator](https://michaelcurrin.github.io/badge-generator/)._
 
 <!-- Badges generated with https://michaelcurrin.github.io/badge-generator/ -->
 [![Placeholder CI](https://github.com/MichaelCurrin/generic-project-template/workflows/Placeholder%20CI/badge.svg)](https://github.com/MichaelCurrin/generic-project-template/actions?query=workflow:"Placeholder+CI" "Go GitHub Actions workflow")
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/generic-project-template?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/generic-project-template/releases/ "Go to GitHub releases")
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
 
-_TODO: Add badges here to show your project was made with Python, Node, Go, etc. Copy from Badge Generator [Catalogue](https://michaelcurrin.github.io/badge-generator/#/catalogue)._
+_TODO: using Html Css and Javascript [Catalogue](https://michaelcurrin.github.io/badge-generator/#/catalogue)._
 
 
-## How to use this starter project
+## How clone this  project
 
 <div align="center">
 
@@ -22,16 +22,16 @@ _TODO: Add badges here to show your project was made with Python, Node, Go, etc.
 
 </div>
 
-See the [Template Notes](/docs/template-notes/) part of the docs for more info.
+
 
 
 ## Preview
 
-_TODO: This is the docs site part as that's all there is. You could use a screenshot of your website, or of sample input and output in the CLI or a scripting language._
+_TODO: Click on each folder which includes different project ._
 
 <div align="center">
     <a href="https://michaelcurrin.github.io/generic-project-template/">
-        <img src="/sample.png" alt="Sample screenshot" title="Go to website" width="400" />
+        <img src="/slide4.jpg" alt="Sample screenshot" title="Go to website" width="400" />
     </a>
 </div>
 
