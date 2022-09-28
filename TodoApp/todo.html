@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <center><form action="" class="form" style="margin-top:70px">
+        <input type="text" class="text" placeholder="enter text">
+        <button type="submit" class="submit">submit</button>
+        <div class="td">
+            
+        
+        <ui class="list">
+            <li class="li"></li>
+            <li class="li"></li>
+            <li class="li"></li>
+        </ui>
+    </div>
+    </form></center>
+   <script>
+    var li= document.querySelector('.li')
+    var submit = document.querySelector('.submit')
+    var list = document.querySelector('.list')
+    
+    submit.addEventListener('click',function(e){
+            e.preventDefault()
+            var newtext = document.createElement("li");
+            li.innerText = document.querySelector('.text').value;
+            document.querySelector("list").appendChild(newtext);
+            
+           
+
+    })
+   </script> 
+</body>
+</html>
