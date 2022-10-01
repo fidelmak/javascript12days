@@ -5,36 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <center><form action="" class="form" style="margin-top:70px">
-        <input type="text" class="text" placeholder="enter text">
-        <button type="submit" class="submit">submit</button>
-        <div class="td">
-            
+    <center>
+        <form>
+            <input type="text" id="input" placeholder="Schedule  A Task">
+            <button class="submit">Submit</button>
+            <ul class="list">
         
-        <ui class="list">
-            <li class="li"></li>
-            <li class="li"></li>
-            <li class="li"></li>
-        </ui>
-    </div>
-    </form></center>
-   <script>
-    var li= document.querySelector('.li')
-    var submit = document.querySelector('.submit')
-    var list = document.querySelector('.list')
-    
-    submit.addEventListener('click',function(e){
-            e.preventDefault()
-            var newtext = document.createElement("li");
-            li.innerText = document.querySelector('.text').value;
-            document.querySelector("list").appendChild(newtext);
-            
-           
+            </ul>
+        </form>
+    </center>
 
-    })
-   </script> 
+    
 </body>
+<script src="todo.js"></script>
 </html>
