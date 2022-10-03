@@ -82,4 +82,4 @@ _If you don't want a docs site, you can just link to your docs directory_.
 ## License
 
 <!-- TODO: Replace with your username and update the LICENSE file contents. -->
-Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
+Released under [MIT](/LICENSE) by [@fidelmak](https://github.com/fidelmak).
