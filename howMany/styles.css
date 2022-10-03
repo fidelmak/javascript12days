@@ -1,0 +1,16 @@
+body{
+    color: rgb(236, 235, 235);
+    background-color: #000000;
+    text-align: center;
+    margin-top: 150px;
+
+}
+.first_number{
+    font-size: 50px;
+}
+.second_number{
+    font-size: 50px;
+}
+.final_number{
+    font-size: 50px;
+}
