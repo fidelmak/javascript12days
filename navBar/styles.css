@@ -9,10 +9,24 @@
 
 
 .links{
+    display: inline-flex;
+   
+    flex-direction: row;
+    justify-content: center;
     list-style: none;
     height: 0;
     overflow: hidden;
+    transform: all 2.5s;
+}
+li{
+    padding-left: 2rem;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .active_nav{
-    height: 8rem;
+    height: 10rem;
 }
+

@@ -9,4 +9,5 @@ button.addEventListener('click', function(){
     //         list.classList.add('active_nav')
     //     }
     links.classList.toggle('active_nav')
+
 })
