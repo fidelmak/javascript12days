@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.title {
+    color: white;
+    height: 100vh;
+    background-image: url(img1\ \(2\).jpg);
+background-size: cover;
+background-position: center center;
+display: flex;
+font-size: 70px;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+h3{
+    color: rgb(6, 248, 167);
+}
+h2{
+    text-decoration: solid;
+    
+}
+.container {
+    padding: 30px;
+    color: rgb(247, 244, 244);
+    background-color: #000000;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 2s;
+}
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
+.col-6 {
+    width: 47%;
+}
