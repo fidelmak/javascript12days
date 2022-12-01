@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color flipper</title>
+    <style>
+        body{
+            margin: 50px;
+            margin-top: 200px;
+        }
+        .this{
+            color: aliceblue;
+            background-color: black;
+            border-radius: 10px;
+            height: 20px;
+           padding: 50px;
+            width: 70px;
+            margin:40px;
+            
+        }
+        .main{
+            height: 300px;
+            width: 800px;
+        }
+    </style>
+</head>
+<body >
+    <center>
+    <div class="main">
+        
+        <p>.</p>
+    </div>
+    <div class="this">
+        <h1 style="margin-top: 5px;">this</h1> 
+ </div>
+    <button class="btn">change</button>
+</center>
+</body>
+<script>
+    //console.log("clicked");
+const bg = document.querySelector('.main')
+const btn = document.querySelector('.btn')
+const text = document.querySelector('.this')
+
+const color = ['#ffffff', '#cccf00', '#000','#ccffff', '#dccf00', '#cxe','#ffffdf', '#cdcf00', '#ccc000']
+
+
+
+
+ //console.log(result);
+ btn.addEventListener('click', (e)=>{
+
+    const result = x();
+    e.preventDefault();
+    
+
+    bg.style.backgroundColor = color[result]; 
+    text.textContent= color[result]
+     //console.log(String(result));
+})
+const x = () => {
+    const ran = Math.floor(Math.random()*color.length)
+    
+     return ran
+}
+
+</script>
+</html>
