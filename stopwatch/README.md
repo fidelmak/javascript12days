@@ -1,6 +1,6 @@
 # simple stopwatch project
 ## this is a simple stopwatch created using Javascript and Html
-## using function and Dom manipulatio
+## using function and Dom manipulation
 <img src="stopwatchDesktop.png"
      alt="stopwatch icon"
      style="float: left; margin-right: 10px;" />
