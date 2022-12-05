@@ -1,6 +1,6 @@
 # JavaScript exercises
 
-# leap year challenge, Random and pseudo-random number generation, advanced BMI calculator. FizzBuzz,Who's buying lunch,99 bottles of beer - while loop,Fibonacci code
+_leap year challenge, Random and pseudo-random number generation, advanced BMI calculator. FizzBuzz,Who's buying lunch,99 bottles of beer - while loop,Fibonacci code_
 
  Content:
 - Random & Pseudo-random number generation
