@@ -1,0 +1,1 @@
+var numberOfDrumButton = document.querySelectorAll(".drums").length
